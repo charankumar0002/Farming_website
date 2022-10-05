@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./farming.css"/>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="Homepage-bg-container d-flex flex-column justify-content-center">
+
+            <div class="Homepage-card">
+                <h1 class="main-heading">MANA FARM</h1>
+                <p class="paragraph"></p>
+                <button class="Homepage-button" onclick="display('sectionhomepage')">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionhomepage">
+        <div class="podcast-image">
+            <h1 class="main-heading">Mana Farm</h1>
+        </div>
+        <div class="podcast-card-container d-flex flex-row">
+            <div onclick="display('sectionPaddy')">
+                <img src="https://t4.ftcdn.net/jpg/00/02/26/77/240_F_2267733_kOv4xyG45kuCeR6lZMAFYiVJcu4jAy.jpg" class="podcast-card" />
+                <h1 class="farming-heading">Paddy</h1>
+            </div>
+            <div onclick="display('sectionwheat')">
+                <img src="https://ugc.futurelearn.com/uploads/images/3f/96/large_hero_3f9634f9-12e1-4eb6-a537-c661579dfdfc.jpg" class="podcast-card" />
+                <h1 class="farming-heading">Wheat</h1>
+            </div>
+        </div>
+        <div class="podcast-card-container d-flex flex-row">
+            <div onclick="display('sectionsugarcane')">
+                <img src="https://images.firstpost.com/wp-content/uploads/2019/03/Sugarcane_BoiVoice.jpg" class="podcast-card" />
+                <h1 class="farming-heading">Sugar Cane</h1>
+            </div>
+            <div onclick="display('sectioncotton')">
+                <img src="https://www.worldatlas.com/r/w960-q80/upload/c4/14/a0/shutterstock-738008380.jpg" class="podcast-card" />
+                <h1 class="farming-heading">Cotton</h1>
+            </div>
+        </div>
+        <div class="podcast-card-container d-flex flex-row">
+            <div onclick="display('sectiongroundnut')">
+                <img src="https://www.digitrac.in/pub/media/magefan_blog/Groundnut_blog_image.png" class="podcast-card" />
+                <h1 class="farming-heading">Ground Nut</h1>
+            </div>
+            <div onclick="display('sectionsunflower')">
+                <img src="https://m.media-amazon.com/images/I/91JkNr1NHCL._SX679_.jpg" class="podcast-card" />
+                <h1 class="farming-heading">Sun Flower</h1>
+            </div>
+        </div>
+    </div>
+    <div id="sectionPaddy">
+        <div class="bg-paddy-container">
+            <h1 class="card">Paddy</h1>
+            <p class="card2" onclick="display('sectionpadddyintro')">Introduction</p>
+            <p class="card2" onclick="display('sectionpadddyclimate')">climate</p>
+            <p class="card2" onclick="display('sectionpadddysoil')">soil</p>
+            <p class="card2" onclick="display('sectionpadddysowing')">sowing</p>
+            <p class="card2" onclick="display('sectionpadddysfertilizers')">fertilizers</p>
+            <p class="card2" onclick="display('sectionpadddyirrigation')">irrigation</p>
+            <p class="card2" onclick="display('sectionpadddyweeding')">weeding</p>
+            <p class="card2" onclick="display('sectionpadddyharvesting')">harvesting</p>
+            <button class="button" onclick="display('sectionhomepage')">Back</button>
+        </div>
+    </div>
+
+
+    <div id="sectionpadddyintro" class="categories-container">
+        <h1>Introduction</h1>
+        <img src="https://spiderimg.amarujala.com/cdn-cgi/image/width=674,height=379.25,fit=cover,f=auto/assets/images/2020/09/23/750x506/paddy_1600841894.jpeg" class="farms-image" />
+        <p>
+            Rice is the staple food of people from Southern and eastern parts of India. It is hence widely cultivated in India and other parts of Asia such as China, Japan, Indonesia, Bangladesh, Thailand, etc. Globally, China is the leading producer of rice with India being the next. As per statistics, West Bengal is the leading rice producer in India followed by Uttar Pradesh, Telangana, Andhra, Punjab, Orissa, Bihar, Chhattisgarh, Tamil Nadu, Assam and Haryana. Cultivating rice is indeed laborious and it needs a lot of water. Therefore, rice cultivation is practiced in those places wherein the labor cost is less and rainfall is high.
+        </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionpadddyclimate" class="categories-container">
+        <h1> Climatic Requirements</h1>
+        <img src="https://i.unu.edu/media/ourworld.unu.edu-en/article/1930/thailands-rice-farmers.jpg" class="farms-image" />
+        <p>
+            In India rice is grown under widely varying conditions of altitude and climate. Rice cultivation in India extends from 8 to35ºN latitude and from sea level to as high as 3000 meters. Rice crop needs a hot and humid climate. It is best suited to regions which have high humidity, prolonged sunshine and an assured supply of water. The average temperature required throughout the life period of the crop ranges from 21 to 37º C. Maximum temp which the crop can tolerate 400C to 42 0C.
+        </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionpadddysoil" class="categories-container">
+        <h1>Soil</h1>
+        <img src="https://images.indianexpress.com/2018/10/paddy-crop.jpg" class="farms-image" />
+        <p>
+            Soils contain the largest reservoir of terrestrial organic carbon (C) and they are a main natural source of atmospheric carbon dioxide (CO2)1. Soil organic carbon (SOC) is widely recognized as a key element of soil fertility, and croplands with high SOC contents have better structure and lower risks of erosion2. Insights into the global distribution of SOC stocks and the effects of environmental variables will thus improve estimates of C-climate feedbacks, and may contribute to agricultural policies designed to improve soil quality3,4,5. Over the last decade, SOC stocks have been increasingly estimated at global and regional scales for numerous ecosystems, including croplands6, grasslands7, wetlands8,9, and forests10,11. However, even though rice paddies cover ~9% of the global cropland area and provide staple food for roughly half the world’s population12, a global assessment of SOC stocks in rice paddies is still lacking.<br /><br />
+
+            Paddy soils are anthropogenic soils (Anthrosols) for cultivation of rice, which are intentionally flooded and puddled, i.e., tilled under water saturated conditions. Paddy soils are widely distributed from temperate to tropical climates on all continents, but mainly in Asia. Rice paddies can be established on various natural and previously agriculturally used soil types, and on various parent materials, but are highly modified by management practices during rice-paddy cultivation13. Because rice paddies are frequently flooded and puddled, their properties differ substantially from those of all other arable upland soil. Anaerobic conditions induced by flooding slow down organic matter decomposition, and thus beneficial to SOC accumulation14. At the same time, these anaerobic conditions promote CH4 production by methanogens, making rice paddies a main source of anthropogenic CH4 emissions15.
+        </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionpadddysowing" class="categories-container">
+        <h1>Sowing</h1>
+        <div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PmJqUQlbkWU?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <p>
+            The Paddy is grown world-wide mostly by hand transplanting of seedlings in puddled soil. The farmers in many parts of the world are using different types of paddy transplanters that require mat-type seedlings.
+
+            Profitable Paddy Cultivation through Direct Seeding Technology by Rice-Wheat Seeder<br /><br />Due to the complexity in operation of machine, its high cost, necessity of growing mat type seedlings & variation in efficiency of machine in different kinds of soil and also in different fields the pace of adoption of the transplanter is very slow in India.
+
+            The Direct Seeded Paddy (DSP) cultivation is picking pace with the development of some improved varieties as well as on account of development of effective weedicides. At present, the farmers are slowly adopting the DSR (Direct Seeded Rice) technology and are broadcasting dry seeds of paddy in well-pulverized soil. The mixing of seed in soil upon broadcasting by tillage equipments result into dispersal of seed at variable depth in randomized pattern, accounting to poor germinations of seed followed by poor crop establishment.</p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionpadddysfertilizers" class="categories-container">
+        <h1>Fertilizers</h1>
+        <img src="https://www.digitrac.in/pub/media/magefan_blog/Manures_Fertilizers-min.jpg" class="farms-image" />
+        <p>
+            Nutrient Management for Paddy crop
+            Always use manure and fertilizer after testing of soil. It improves the production capacity and fertility of soil. In paddy field, fertilizer dose is determined on the basis of varieties.
+            <br /><br />
+            For dwarf varieties, 120 kg nitrogen, 50-60 kg phosphorus and 30-40 kg potash are required.<br /><br />
+            For basmati varieties, 110-120 kg nitrogen, 50-60 kg phosphorus and 40-50 kg potash are required<br /><br />
+            For hybrid varieties, 130-140 kg nitrogen, 60-70 kg phosphorus and 55-60 kg potash are required.<br /><br />
+
+            Time of fertilizer use - Always mix the fertilizers in the land below 3-4 cm from seeds so that, seed and fertilizer could not mix mutually, because there is a negative effect on seed germination and crop yield. At the time of fertilizer use, mix half amount of nitrogen before sowing and divide remaining dose of nitrogen in two parts then mix in soil after 20-25 and 50-55 days of sowing. Use phosphorus and potash before sowing in the field.
+            <br /><br />
+            In paddy field, zinc is an important micro-nutrient. It causes khaira disease. In dwarf varieties of paddy, use 20-25 kg zinc sulphate before sowing to complete the deficiency of zinc. For basmati and hybrid varieties, use 20-25 kg and 25-30 kg zinc sulphate before sowing.
+            <br /><br />
+            Manure – In paddy field, mix 100-150 quintal farm yard manure before one month of sowing. It gives the proper
+        </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionpadddyirrigation" class="categories-container">
+        <h1>Irrigation</h1>
+        <div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qs5dXsyWoKw?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+        Paddy crop is strongly influenced by water supply. Water should be kept standing in the field throughout the growth period. In water scarcity areas, saturated soil in a chemical reduced stage is desirable. The characteristics of flooded soil which are conducive to high yields are: (i) greater availability of nutrients such as phosphorus, iron and manganese, (ii) suppression of weed competition, (iii) elimination of moisture stress as a limiting factor, (iv) micro-climate favourable to crop production.
+        </p>
+
+        <ul class="unordered-square-list">
+            <li>Excess / limited / no water leads to reduction in yield.</li>
+            <li>Rice a semi - aquatic plant requires near submergence</li>
+            <li>Submergence helps in - suppressing weed growth and more availability of certain nutrients</li>
+            <li>Daily consumptive use of rice is 6 - 10mm</li>
+            <li>Total water requirement of rice is 1200 - 1400 mm</li>
+            <li>2000 - 3000 litres of water required to produced 1kg of rice</li>
+            <li>Highly saline and brakish water not good for irrigation</li>
+            <li>Application of FYM or incorporation of green manures reduce adverse effects of excess salts</li>
+            <li>Application of FYM or compost or green manures increases water holding capacity of light textured soils and thus saving of water</li>
+            <li>Thorough puddling creates impermeable layer which reduces deep percolation losses</li>
+            <li>Perfect leveling maintains uniform depth of water throughout field</li>
+            <li>Maintenance of water depths in field as recommended for high water use efficiency and yield </li>
+        </ul>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+
+    <div id="sectionpadddyweeding" class="categories-container">
+        <h1>How to control weeds</h1>
+        <div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UwSj5FfSQQE?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <p>
+            weeds-fieldWeed control is important to prevent losses in yield and production costs, and to preserve good grain quality. Specifically, weeds
+
+            decrease yields by direct competition for sunlight, nutrients, and water
+            increase production costs e.g., higher labor or input costs
+            reduce grain quality and price
+            For example, weed seeds in grain can cause the buyer price to be reduced. </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionpadddyharvesting" class="categories-container">
+        <h1>Harvesting</h1>
+        <div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6GnEjj_hDJw?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <p>
+            As you all know that India is the agriculture-based country here more than half of the population is involved in agriculture. With time changes, agriculture techniques also change. So, as tractors are getting popular in India like that harvesters are also getting popular in India day by day. Find here Harvesters in India.
+
+            Harvester or combine harvester is an adaptable machine created for effectively harvesting crops in the fields. Reaping, threshing and winnowing- after combining these three operations one machine is created that’s name is the harvester. Combines harvester has almost all the qualities of implements. It is a mixed form of reaping, threshing and winnowing. </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionwheat">
+        <div class="bg-paddy-container">
+            <h1 class="card">Wheat</h1>
+            <p class="card2" onclick="display('sectionwheatintro')">Introduction</p>
+            <p class="card2" onclick="display('sectionwheatclimate')">climate</p>
+            <p class="card2" onclick="display('sectionwheatsoil')">soil</p>
+            <p class="card2" onclick="display('sectionwheatsowing')">sowing</p>
+            <p class="card2" onclick="display('sectionpadddysfertilizers')">fertilizers</p>
+            <p class="card2" onclick="display('sectionpadddyirrigation')">irrigation</p>
+            <p class="card2" onclick="display('sectionpadddyweeding')">weeding</p>
+            <p class="card2" onclick="display('sectionpadddyharvesting')">harvesting</p>
+            <button class="button" onclick="display('sectionhomepage')">Back</button>
+        </div>
+    </div>
+    <div id="sectionwheatintro" class="categories-container">
+        <h1> Climatic Requirements</h1>
+        <img src="https://www.worldatlas.com/r/w960-q80/upload/d8/f0/68/shutterstock-116527159.jpg" class="farms-image" />
+        <p>
+            Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food.[2][3][4] The many species of wheat together make up the genus Triticum; the most widely grown is common wheat (T. aestivum). The archaeological record suggests that wheat was first cultivated in the regions of the Fertile Crescent around 9600 BCE. Botanically, the wheat kernel is a type of fruit called a caryopsis.
+
+            Wheat is grown on more land area than any other food crop (220.4 million hectares or 545 million acres, 2014).[5] World trade in wheat is greater than for all other crops combined.[6]
+
+            In 2020, world production of wheat was 761 million tonnes (1.7 trillion pounds), making it the second most-produced cereal after maize.[7] Since 1960, world production of wheat and other grain crops has tripled and is expected to grow further through the middle of the 21st century.[8] Global demand for wheat is increasing due to the unique viscoelastic and adhesive properties of gluten proteins, which facilitate the production of processed foods, whose consumption is increasing as a result of the worldwide industrialization process and the westernization of the diet.
+        </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionwheatclimate" class="categories-container">
+        <h1> Climatic Requirements</h1>
+        <img src="https://scx1.b-cdn.net/csz/news/800a/2015/54e5defa23bc0.jpg" class="farms-image" />
+        <p>
+            Researchers found that the effects from climate change and its increasing temperatures on wheat will be more severe than once projected and are happening sooner than expected. While Prasad said increases in the average temperature are problematic, a bigger challenge is the extreme temperatures that are resulting from climate change.
+
+            "Extreme temperature doesn't only mean heat; it also means cold," Prasad said. "Simply looking at the average temperature doesn't really show us anything because it's the extremities that are more detrimental to crops. Plants can handle gradual changes because they have time to adapt, but an extreme heat wave or cold snap can kill a plant because that adjustment period is often nonexistent."
+
+            Researchers also found that increasing temperatures are shortening the time frame that wheat plants have to mature and produce full heads for harvest, resulting in less grain produced from each plant.
+        </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionwheatsoil" class="categories-container">
+        <h1>Soil</h1>
+        <img src="https://www.canr.msu.edu/contentAsset/image/6d3ddbe9-384e-4bcf-b608-cd6ad17efb03/fileAsset/filter/Resize,Jpeg/resize_w/750/jpeg_q/80" class="farms-image" />
+        <p>
+            The best soil for growing wheat is soil that is loamy and well draining. Loam is soil that has the right combination of clay, silt and sand to provide a proper balance of moisture retention and moisture release.
+
+            Generally speaking, loamy soil is made up of a combination of equal amounts of each of these ingredients.<br /><br />
+
+
+
+            Another important quality of loamy soil is that it allows good air circulation within the soil. Soil that is too compacted retains too much moisture and doesn’t allow air to flow through. When this happens, plant roots become waterlogged and subject to root rot. This can happen with soil that has too much clay.
+
+            On the other hand, soil that has too much sand may allow water to wash through to freely. This results in wheat plants not getting enough water and not getting enough nutrients. The reason for this is nutrients wash out of the soil as water rushes through.
+            <br /><br />
+            Silt and organic matter lighten the soil and work to hold the other components of the soil together. Organic matter also helps retain moisture and conveys nourishment to plants.
+
+            In addition to these problems, unbalanced soil also causes problems with pH levels, which have a strong effect on a plant’s ability to uptake nourishment.
+        </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    </div>
+    <div id="sectionwheatsowing" class="categories-container">
+        <h1>Sowing</h1>
+        <div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xIe2EjQNols?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <p>
+            The Paddy is grown world-wide mostly by hand transplanting of seedlings in puddled soil. The farmers in many parts of the world are using different types of paddy transplanters that require mat-type seedlings.
+
+            Profitable Paddy Cultivation through Direct Seeding Technology by Rice-Wheat Seeder<br /><br />Due to the complexity in operation of machine, its high cost, necessity of growing mat type seedlings & variation in efficiency of machine in different kinds of soil and also in different fields the pace of adoption of the transplanter is very slow in India.
+
+            The Direct Seeded Paddy (DSP) cultivation is picking pace with the development of some improved varieties as well as on account of development of effective weedicides. At present, the farmers are slowly adopting the DSR (Direct Seeded Rice) technology and are broadcasting dry seeds of paddy in well-pulverized soil. The mixing of seed in soil upon broadcasting by tillage equipments result into dispersal of seed at variable depth in randomized pattern, accounting to poor germinations of seed followed by poor crop establishment.</p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionsugarcane">
+        <div class="bg-paddy-container">
+            <h1 class="card">Sugar Cane</h1>
+            <p class="card2" onclick="display('sectionsugarcaneintro')">Introduction</p>
+            <p class="card2" onclick="display('sectionsugarcaneclimate')">climate</p>
+            <p class="card2" onclick="display('sectionsugarcanesoil')">soil</p>
+            <p class="card2" onclick="display('sectionsugarcanesowing')">sowing</p>
+            <p class="card2" onclick="display('sectionsugarcanefertilizers')">fertilizers</p>
+            <p class="card2" onclick="display('sectionsugarcaneirrigation')">irrigation</p>
+            <p class="card2" onclick="display('sectionsugarcaneweeding')">weeding</p>
+            <p class="card2" onclick="display('sectionsugarcaneharvesting')">harvesting</p>
+            <button class="button" onclick="display('sectionhomepage')">Back</button>
+        </div>
+    </div>
+    <div id="sectionsugarcaneintro" class="categories-container">
+        <h1>Introduction</h1>
+        <img src="https://images.news18.com/ibnlive/uploads/2021/08/untitled-design-63-16298881303x2.jpg?impolicy=website&width=510&height=356" class="farms-image" />
+        <p>
+            Rice is the staple food of people from Southern and eastern parts of India. It is hence widely cultivated in India and other parts of Asia such as China, Japan, Indonesia, Bangladesh, Thailand, etc. Globally, China is the leading producer of rice with India being the next. As per statistics, West Bengal is the leading rice producer in India followed by Uttar Pradesh, Telangana, Andhra, Punjab, Orissa, Bihar, Chhattisgarh, Tamil Nadu, Assam and Haryana. Cultivating rice is indeed laborious and it needs a lot of water. Therefore, rice cultivation is practiced in those places wherein the labor cost is less and rainfall is high.
+        </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionsugarcaneclimate" class="categories-container">
+        <h1> Climatic Requirements</h1>
+        <img src="https://i.unu.edu/media/ourworld.unu.edu-en/article/1930/thailands-rice-farmers.jpg" class="farms-image" />
+        <p>
+
+            Changing climatic conditions influences the population dynamics, life cycle duration and overall occurrence of majority of insects, pathogen and weeds of sugarcane. Weeds, pathogen and insects are among the agriculture pest that will be influence by climate change. Changes in temperature, rainfall and CO2 levels, will affect pathogen, insects and weeds distribution and their competitiveness with wheat crop. C3 cultivars are performing well under high CO2 concentration than C4 cultivar. Agriculture sector is sensitive to temporary weather changes and seasonal, annual and long term variation in climate. Agronomic practice, soil, seed, pest and diseases have significant influence on crop yield. Human induced climate change and environmental problems, provides a limiting factor. Sugarcane is a C4 crop, mainly grow in tropics and subtropics regions and important source of bioenergy and sugar in the world. Sugarcane is perennial crop cultivated on 20 million ha in subtropical and tropical region [4] with annual yield app. 1325 million tons stalks for sugar, energy, rum and chemicals [5]. Sugarcane is one of the world’s major food-producing crops, providing about 75% of sugar produced in the world for human consumption [6]. Sugarcane is cash crop of Pakistan and makes contribute in 0.6% in total GDP. During 2015–2016, sugarcane crop cultivated on 1132 thousand hectares as compared 1141 thousand hectares previous year, with production of 65,475 thousand tons [7]. Decline in area is due to shifted sugarcane area to other crops. Total cultivated area and production of sugarcan
+        </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionsugarcanesoil" class="categories-container">
+        <h1>Soil</h1>
+        <img src="https://images.indianexpress.com/2018/10/paddy-crop.jpg" class="farms-image" />
+        <p>
+            Soils contain the largest reservoir of terrestrial organic carbon (C) and they are a main natural source of atmospheric carbon dioxide (CO2)1. Soil organic carbon (SOC) is widely recognized as a key element of soil fertility, and croplands with high SOC contents have better structure and lower risks of erosion2. Insights into the global distribution of SOC stocks and the effects of environmental variables will thus improve estimates of C-climate feedbacks, and may contribute to agricultural policies designed to improve soil quality3,4,5. Over the last decade, SOC stocks have been increasingly estimated at global and regional scales for numerous ecosystems, including croplands6, grasslands7, wetlands8,9, and forests10,11. However, even though rice paddies cover ~9% of the global cropland area and provide staple food for roughly half the world’s population12, a global assessment of SOC stocks in rice paddies is still lacking.<br /><br />
+
+            Paddy soils are anthropogenic soils (Anthrosols) for cultivation of rice, which are intentionally flooded and puddled, i.e., tilled under water saturated conditions. Paddy soils are widely distributed from temperate to tropical climates on all continents, but mainly in Asia. Rice paddies can be established on various natural and previously agriculturally used soil types, and on various parent materials, but are highly modified by management practices during rice-paddy cultivation13. Because rice paddies are frequently flooded and puddled, their properties differ substantially from those of all other arable upland soil. Anaerobic conditions induced by flooding slow down organic matter decomposition, and thus beneficial to SOC accumulation14. At the same time, these anaerobic conditions promote CH4 production by methanogens, making rice paddies a main source of anthropogenic CH4 emissions15.
+        </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionsugarcanesowing" class="categories-container">
+        <h1>Sowing</h1>
+        <div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/j0wxo_xKDx4?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <p>
+            The Paddy is grown world-wide mostly by hand transplanting of seedlings in puddled soil. The farmers in many parts of the world are using different types of paddy transplanters that require mat-type seedlings.
+
+            Profitable Paddy Cultivation through Direct Seeding Technology by Rice-Wheat Seeder<br /><br />Due to the complexity in operation of machine, its high cost, necessity of growing mat type seedlings & variation in efficiency of machine in different kinds of soil and also in different fields the pace of adoption of the transplanter is very slow in India.
+
+            The Direct Seeded Paddy (DSP) cultivation is picking pace with the development of some improved varieties as well as on account of development of effective weedicides. At present, the farmers are slowly adopting the DSR (Direct Seeded Rice) technology and are broadcasting dry seeds of paddy in well-pulverized soil. The mixing of seed in soil upon broadcasting by tillage equipments result into dispersal of seed at variable depth in randomized pattern, accounting to poor germinations of seed followed by poor crop establishment.</p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionsugarcanefertilizers" class="categories-container">
+        <h1>Fertilizers</h1>
+        <img src="https://www.digitrac.in/pub/media/magefan_blog/Manures_Fertilizers-min.jpg" class="farms-image" />
+        <p>
+            Nutrient Management for Paddy crop
+            Always use manure and fertilizer after testing of soil. It improves the production capacity and fertility of soil. In paddy field, fertilizer dose is determined on the basis of varieties.
+            <br /><br />
+            For dwarf varieties, 120 kg nitrogen, 50-60 kg phosphorus and 30-40 kg potash are required.<br /><br />
+            For basmati varieties, 110-120 kg nitrogen, 50-60 kg phosphorus and 40-50 kg potash are required<br /><br />
+            For hybrid varieties, 130-140 kg nitrogen, 60-70 kg phosphorus and 55-60 kg potash are required.<br /><br />
+
+            Time of fertilizer use - Always mix the fertilizers in the land below 3-4 cm from seeds so that, seed and fertilizer could not mix mutually, because there is a negative effect on seed germination and crop yield. At the time of fertilizer use, mix half amount of nitrogen before sowing and divide remaining dose of nitrogen in two parts then mix in soil after 20-25 and 50-55 days of sowing. Use phosphorus and potash before sowing in the field.
+            <br /><br />
+            In paddy field, zinc is an important micro-nutrient. It causes khaira disease. In dwarf varieties of paddy, use 20-25 kg zinc sulphate before sowing to complete the deficiency of zinc. For basmati and hybrid varieties, use 20-25 kg and 25-30 kg zinc sulphate before sowing.
+            <br /><br />
+            Manure – In paddy field, mix 100-150 quintal farm yard manure before one month of sowing. It gives the proper
+        </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionsugarcaneirrigation" class="categories-container">
+        <h1>Irrigation</h1>
+        <div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qs5dXsyWoKw?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+        Paddy crop is strongly influenced by water supply. Water should be kept standing in the field throughout the growth period. In water scarcity areas, saturated soil in a chemical reduced stage is desirable. The characteristics of flooded soil which are conducive to high yields are: (i) greater availability of nutrients such as phosphorus, iron and manganese, (ii) suppression of weed competition, (iii) elimination of moisture stress as a limiting factor, (iv) micro-climate favourable to crop production.
+        </p>
+
+        <ul class="unordered-square-list">
+            <li>Excess / limited / no water leads to reduction in yield.</li>
+            <li>Rice a semi - aquatic plant requires near submergence</li>
+            <li>Submergence helps in - suppressing weed growth and more availability of certain nutrients</li>
+            <li>Daily consumptive use of rice is 6 - 10mm</li>
+            <li>Total water requirement of rice is 1200 - 1400 mm</li>
+            <li>2000 - 3000 litres of water required to produced 1kg of rice</li>
+            <li>Highly saline and brakish water not good for irrigation</li>
+            <li>Application of FYM or incorporation of green manures reduce adverse effects of excess salts</li>
+            <li>Application of FYM or compost or green manures increases water holding capacity of light textured soils and thus saving of water</li>
+            <li>Thorough puddling creates impermeable layer which reduces deep percolation losses</li>
+            <li>Perfect leveling maintains uniform depth of water throughout field</li>
+            <li>Maintenance of water depths in field as recommended for high water use efficiency and yield </li>
+        </ul>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+
+    <div id="sectionsugarcaneweeding" class="categories-container">
+        <h1>How to control weeds</h1>
+        <div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UwSj5FfSQQE?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <p>
+            weeds-fieldWeed control is important to prevent losses in yield and production costs, and to preserve good grain quality. Specifically, weeds
+
+            decrease yields by direct competition for sunlight, nutrients, and water
+            increase production costs e.g., higher labor or input costs
+            reduce grain quality and price
+            For example, weed seeds in grain can cause the buyer price to be reduced. </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectionsugarcaneharvesting" class="categories-container">
+        <h1>Harvesting</h1>
+        <div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6GnEjj_hDJw?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <p>
+            As you all know that India is the agriculture-based country here more than half of the population is involved in agriculture. With time changes, agriculture techniques also change. So, as tractors are getting popular in India like that harvesters are also getting popular in India day by day. Find here Harvesters in India.
+
+            Harvester or combine harvester is an adaptable machine created for effectively harvesting crops in the fields. Reaping, threshing and winnowing- after combining these three operations one machine is created that’s name is the harvester. Combines harvester has almost all the qualities of implements. It is a mixed form of reaping, threshing and winnowing. </p>
+        <button class="button" onclick="display('sectionPaddy')">Back</button>
+    </div>
+    <div id="sectioncotton">
+        <div class="bg-paddy-container">
+            <h1 class="card">Cotton</h1>
+            <p class="card2" onclick="display('sectionpadddyintro')">Introduction</p>
+            <p class="card2" onclick="display('sectionpadddyclimate')">climate</p>
+            <p class="card2" onclick="display('sectionpadddysoil')">soil</p>
+            <p class="card2" onclick="display('sectionpadddysowing')">sowing</p>
+            <p class="card2" onclick="display('sectionpadddysfertilizers')">fertilizers</p>
+            <p class="card2" onclick="display('sectionpadddyirrigation')">irrigation</p>
+            <p class="card2" onclick="display('sectionpadddyweeding')">weeding</p>
+            <p class="card2" onclick="display('sectionpadddyharvesting')">harvesting</p>
+            <button class="button" onclick="display('sectionhomepage')">Back</button>
+        </div>
+    </div>
+    <div id="sectiongroundnut">
+        <div class="bg-paddy-container">
+            <h1 class="card">Groundnut</h1>
+            <p class="card2" onclick="display('sectionpadddyintro')">Introduction</p>
+            <p class="card2" onclick="display('sectionpadddyclimate')">climate</p>
+            <p class="card2" onclick="display('sectionpadddysoil')">soil</p>
+            <p class="card2" onclick="display('sectionpadddysowing')">sowing</p>
+            <p class="card2" onclick="display('sectionpadddysfertilizers')">fertilizers</p>
+            <p class="card2" onclick="display('sectionpadddyirrigation')">irrigation</p>
+            <p class="card2" onclick="display('sectionpadddyweeding')">weeding</p>
+            <p class="card2" onclick="display('sectionpadddyharvesting')">harvesting</p>
+            <button class="button" onclick="display('sectionhomepage')">Back</button>
+        </div>
+    </div>
+    <div id="sectionsunflower">
+        <div class="bg-paddy-container">
+            <h1 class="card">Sunflower</h1>
+            <p class="card2" onclick="display('sectionpadddyintro')">Introduction</p>
+            <p class="card2" onclick="display('sectionpadddyclimate')">climate</p>
+            <p class="card2" onclick="display('sectionpadddysoil')">soil</p>
+            <p class="card2" onclick="display('sectionpadddysowing')">sowing</p>
+            <p class="card2" onclick="display('sectionpadddysfertilizers')">fertilizers</p>
+            <p class="card2" onclick="display('sectionpadddyirrigation')">irrigation</p>
+            <p class="card2" onclick="display('sectionpadddyweeding')">weeding</p>
+            <p class="card2" onclick="display('sectionpadddyharvesting')">harvesting</p>
+            <button class="button" onclick="display('sectionhomepage')">Back</button>
+        </div>
+    </div>
+    <div id="sectionwheat">
+        <div class="bg-paddy-container">
+            <h1 class="card">Wheat</h1>
+            <p class="card2" onclick="display('sectionpadddyintro')">Introduction</p>
+            <p class="card2" onclick="display('sectionpadddyclimate')">climate</p>
+            <p class="card2" onclick="display('sectionpadddysoil')">soil</p>
+            <p class="card2" onclick="display('sectionpadddysowing')">sowing</p>
+            <p class="card2" onclick="display('sectionpadddysfertilizers')">fertilizers</p>
+            <p class="card2" onclick="display('sectionpadddyirrigation')">irrigation</p>
+            <p class="card2" onclick="display('sectionpadddyweeding')">weeding</p>
+            <p class="card2" onclick="display('sectionpadddyharvesting')">harvesting</p>
+            <button class="button" onclick="display('sectionhomepage')">Back</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.Homepage-bg-container {
+    background-image: url("https://st4.depositphotos.com/13187390/24685/i/450/depositphotos_246850002-stock-photo-indian-farmer-using-mobile-phone.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+
+}
+
+.symbol {
+    height: 25px;
+    width: 25px;
+}
+
+.Homepage-card {
+    text-align: center;
+    background-color: #8ab079;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.Homepage-button {
+    background-color: #2044ba;
+    color: #ffffff;
+    border-radius: 15px;
+    border-width: 0px;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+.button {
+    background-color: #24403d;
+    color: #ffffff;
+    border-radius: 15px;
+    border-width: 0px;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+.podcast-image {
+    background-image: url("https://t3.ftcdn.net/jpg/04/58/48/78/240_F_458487839_YjLxGtCWVbCUuy5hU5BpnHCqnquuUJ9S.jpg");
+    height: 30vh;
+    background-size: cover;
+}
+
+.main-heading {
+    color: white;
+    padding: 15px;
+    font-family: "Monoton";
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.farms-image {
+    width: 350px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-size: cover;
+
+}
+
+.podcast-card-container {
+    font-family: "Roboto";
+    margin: 15px;
+}
+
+.podcast-card {
+    height: 95px;
+    width: 125px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.farming-heading {
+    font-size: 15px;
+    color: #151765;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Bree serif";
+}
+
+.podcast-para {
+    color: #5a7184;
+    font-size: 15px;
+    text-align: center;
+}
+
+.bg-paddy-container {
+    background-color: #ffffff;
+    color: #ffffff;
+    height: 100vh;
+    font-family: "Roboto";
+}
+
+.card {
+    background-color: #323f4b;
+    height: 50px;
+    text-align: center;
+    font-family: "Bree serif";
+}
+
+.card2 {
+    background-color: #47a3f3;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.categories-container {
+    background-color: #cce3de;
+    background-size: cover;
+
+    font-family: "Bree serif";
+    padding: 10px;
+}
+
+unordered-square-list {
+    list-style-type: square;
+}
